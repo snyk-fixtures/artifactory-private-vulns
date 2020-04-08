@@ -1,0 +1,10 @@
+{
+  "name": "artifactory-private-vulns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@snyk/deb-semver": "1.1.1",
+    "debug": "3.0.0"
+  }
+}
