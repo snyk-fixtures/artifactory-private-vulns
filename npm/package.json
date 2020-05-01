@@ -5,6 +5,12 @@
   "license": "MIT",
   "dependencies": {
     "@snyk/deb-semver": "1.1.1",
-    "debug": "3.0.0"
-  }
+    "debug": "3.1.0",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
